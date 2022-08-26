@@ -1,0 +1,55 @@
+.gallery {
+    &__items {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__item {
+        width: 304px;
+        height: 587px;
+        position: relative;
+
+        &__inner {
+            position: absolute;
+            bottom: 32px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            width: 240px;
+            color: #fff;
+        }
+
+        &-title {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+        &-text {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 21px;
+            margin-bottom: 15px;
+        }
+
+        &-link {
+            color: #fff;
+        }
+    }
+}
+
+.portal-tv {
+    background: url(../../img/gallery/1.jpg);
+}
+
+.portal-simple {
+    background: url(../../img/gallery/2.jpg);
+}
+
+.portal-plus {
+    background: url(../../img/gallery/3.jpg);
+}
+
+.portal-mini {
+    background: url(../../img/gallery/4.jpg);
+}

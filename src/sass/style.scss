@@ -14,5 +14,12 @@ ul {
     margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
 @import 'blocks/header';
+@import 'blocks/calling';
+@import 'blocks/gallery';
+@import 'blocks/titles';
 

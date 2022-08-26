@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RunSmart</title>
+    <title>Portal</title>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
+    <header class="header">
+        <div class="container">
             <div class="header__wrapper">
                 <a class="header__logo-link" href="#">
                     <img src="img/logo.svg" alt="">
@@ -28,15 +28,84 @@
                             <a href="#">Support</a>
                         </li>
                     </ul>
-                    <button class="header__menu-btn">Log Into</button>
+                    <form action="">
+                        <input class="header__menu-btn" type="button" value="Log Into">
+                    </form>
             </div>
-        </header>
-    </div>
+        </div>
+    </header>
+
+    <section class="calling">
+        <div class="calling__wrapper">
+            <h2 class="calling-title title">
+                If you can't be there, feel there with Portal
+            </h2>
+            <h4 class="calling-subtitle">
+                Smart video calling with Alexa Built-in.
+            </h4>
+            <div class="calling__inner">
+                <button class="calling-btn">Watch the Demo</button>
+                <button class="calling-btn">Compare Portals</button>
+            </div>
+        </div>
 
 
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <div class="calling-discount">
+            <div class="calling-discount__inner">
+                <img src="img/computers.png" alt="computers">
+
+                <div class="calling-discount-text">
+                    <h5 class="calling-discount-title">
+                        Buy any 2 and save $50*
+                    </h5>
+                    <h6 class="calling-discount-subtitle">
+                        Ship to multiple addresses at no extra cost.
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery__items">
+                <div class="gallery__item portal-tv">
+                    <div class="gallery__item__inner">
+                        <h5 class="gallery__item-title">Portal TV</h5>
+                        <p class="gallery__item-text">Smart video calling on the biggest screen in your home</p>
+                        <a class="gallery__item-link" href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="gallery__item portal-simple">
+                    <div class="gallery__item__inner">
+                        <h5 class="gallery__item-title">Portal</h5>
+                        <p class="gallery__item-text">Smart video calling on a 10” HD display</p>
+                        <a class="gallery__item-link" href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="gallery__item portal-plus">
+                    <div class="gallery__item__inner">
+                        <h5 class="gallery__item-title">Portal+</h5>
+                        <p class="gallery__item-text">Smart video calling on a 15.6” HD display</p>
+                        <a class="gallery__item-link" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="gallery__item portal-mini">
+                    <div class="gallery__item__inner">
+                        <h5 class="gallery__item-title">Portal Mini</h5>
+                        <p class="gallery__item-text">Smart video calling on an 8” HD display</p>
+                        <a class="gallery__item-link" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/slick.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script.js"></script> -->
 </body>
 
 </html>
